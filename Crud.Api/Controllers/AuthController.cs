@@ -76,7 +76,7 @@ namespace Crud.Api.Controllers
 
             // Generate JWT token
             var token = GenerateJwt(user);
-            return Ok(new { Token = "JWT_TOKEN_HERE" });
+            return Ok(new { Token = token });
         }
 
         // FORGOT PASSWORD
