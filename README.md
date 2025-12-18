@@ -94,7 +94,9 @@ dotnet user-secrets set "ConnectionStrings:Default" "Host=localhost;Database=opi
 dotnet user-secrets set "Jwt:Key" "YOUR_SUPER_SECRET_KEY_AT_LEAST_32_CHARS"
 ```
 
-### 🧪 Testing
+---
+
+## 🧪 Testing
 
 Swagger UI for manual testing
 
@@ -102,8 +104,8 @@ Postman for end-to-end API testing
 
 JWT-protected endpoints require authorization
 
-
-### 📌 Project Purpose
+---
+## 📌 Project Purpose
 
 This project was built to demonstrate:
 
@@ -115,7 +117,8 @@ Real-world backend API design
 
 Clean architecture and best practices
 
-### 📬 Future Improvements
+---
+## 📬 Future Improvements
 
 Email sending via SMTP or SendGrid
 
@@ -127,8 +130,8 @@ Role-based authorization
 
 Frontend integration (Next.js)
 
-
-### 👤 Author
+---
+## 👤 Author
 
 Tosin Adewole
 Full-Stack Developer
